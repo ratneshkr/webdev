@@ -9,9 +9,24 @@
 
     };
 
-
-    document.write(employee);
+document.write(employee);
 document.write(JSON.stringify(employee));
+
+
+//String
+var name="Mary had a little lamb";
+//document.write(name.length);
+//document.write(name.slice(5,10));
+//document.write(substring(5,10));
+
+//case sensitive
+//document.write(name.replace("MARY","Rahul"));
+
+//case insensitive : Regex- Regular Expression
+var replaceText=/MARY/i;
+document.write(name.replace(/MARY/i,"Rahul"))
+
+
 
 
 </script>
