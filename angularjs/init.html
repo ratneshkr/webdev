@@ -11,11 +11,9 @@
 <body>
     
 
-    <div ng-app>
-        <input type="text" value="" ng-model="movie">
-        {{movie}}
-
-        <h1>{{10+20}}</h1>
+    <div ng-app="" ng-init="val='welcome'">
+        <input type="text" value={{val}} ng-model="val">
+        {{val}}
     </div>
 
 
