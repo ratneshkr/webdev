@@ -33,11 +33,15 @@
 $(document).ready(function(){
     $("button").click(function(){
         var id=this.id;
-        var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'alphabet/'+id+'.mp3');
+        
+		var audioElement = document.createElement('audio');
+        
+		audioElement.setAttribute('src', 'alphabet/'+id+'.mp3');
         audioElement.setAttribute('autoplay', 'autoplay');        
-        audioElement.addEventListener("load", function() {
-        audioElement.play();
+        
+		audioElement.addEventListener("load", function() {
+        
+		audioElement.play();
     });
 });
 });
